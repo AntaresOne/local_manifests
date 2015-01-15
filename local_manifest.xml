@@ -2,10 +2,10 @@
 <manifest>
 <!--Device tree-->
 <project path="device/samsung/jflte" name="AntaresOne/android_device_samsung_jflte" remote="github" revision="cm-12.0" />
-<project path="device/samsung/jf-common" name="AntaresOne/android_device_samsung_jf-common" remote="github" revision="cm-12.0" />
+<project path="device/samsung/jf-common" name="AntaresOne/android_device_samsung_jf-common" remote="github"revision="cm-12.0-custom" />
 <project path="device/samsung/qcom-common" name="AntaresOne/android_device_samsung_qcom-common" remote="github" revision="cm-12.0" />
 <!--Kernel-->
-<project path="kernel/samsung/jf" name="AntaresOne/android_kernel_samsung_jf" remote="github" revision="cm-12.0" />
+<project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="github" revision="cm-12.0" />
 <!--Proprietary vendor blobs-->
 <project path="vendor/samsung" name="AntaresOne/proprietary_vendor_samsung" remote="github" revision="cm-12.0" />
 </manifest>
