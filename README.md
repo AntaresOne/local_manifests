@@ -1,4 +1,4 @@
-Local manifest for CM12.1
+Local manifest for CM12.1 with ArchiDroid Optimizations V4
 ==============
 
 To add this manifest to your local repository, use this command:
