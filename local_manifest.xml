@@ -2,7 +2,9 @@
 <manifest>
 <!--Android_build with ArchiDroid optimizations-->
 <remove-project name="CyanogenMod/android_build" />
-<project path="build" name="AntaresOne/android_build" remote="github" revision="cm-12.0" />
+<project path="build" name="AntaresOne/android_build" remote="github" revision="cm-12.0" >
+  <copyfile src="core/root.mk" dest="Makefile" />
+</project>
 <!--Device tree-->
 <project path="device/samsung/jflte" name="AntaresOne/android_device_samsung_jflte" remote="github" revision="cm-12.0" />
 <project path="device/samsung/jf-common" name="AntaresOne/android_device_samsung_jf-common" remote="github" revision="cm-12.0-custom" />
