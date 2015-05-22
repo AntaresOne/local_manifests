@@ -17,7 +17,7 @@
 <!--Kernel-->
 <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="github" revision="cm-12.1" />
 <!--OTA Updates-->
-<project path="packages/apps/OTAUpdates" name="Kryten2k35/OTAUpdates" remote="github" revision="stable" />
+<project path="packages/apps/OTAUpdates" name="Kryten2k35/OTAUpdates" remote="github" revision="aosp" />
 <!--Proprietary vendor blobs-->
 <project path="vendor/samsung" name="AntaresOne/proprietary_vendor_samsung" remote="github" revision="cm-12.1-custom" />
 <!--Vendor-->
