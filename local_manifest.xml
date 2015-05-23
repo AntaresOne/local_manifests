@@ -9,6 +9,9 @@
 <project path="device/samsung/jflte" name="AntaresOne/android_device_samsung_jflte" remote="github" revision="cm-12.1-custom" />
 <project path="device/samsung/jf-common" name="AntaresOne/android_device_samsung_jf-common" remote="github" revision="cm-12.1-custom" />
 <project path="device/samsung/qcom-common" name="AntaresOne/android_device_samsung_qcom-common" remote="github" revision="cm-12.1" />
+<!--Framework-->
+<remove-project name="CyanogenMod/android_frameworks_av" />
+<project path="frameworks/av" name="AntaresOne/android_frameworks_av" remote="github" revision="cm-12.1-custom" />
 <!--Hardware-->
 <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-12.1" />
 <!--Hardware for ArchiDroid optimizations-->
